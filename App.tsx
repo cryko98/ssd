@@ -181,16 +181,17 @@ const About = () => (
         <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="order-2 lg:order-1">
           <div className="flex items-center gap-2 mb-6">
             <span className="w-2 h-2 bg-white rounded-full animate-pulse" />
-            <span className="font-mono text-xs text-white/50 tracking-widest">SYSTEM ARCHITECTURE</span>
+            <span className="font-mono text-xs text-white/50 tracking-widest">MARKET INTELLIGENCE</span>
           </div>
-          <h2 className="text-4xl md:text-6xl font-orbitron font-bold mb-8 uppercase metallic-text leading-none">HARDWARE<br/>ACCELERATED.</h2>
+          <h2 className="text-4xl md:text-6xl font-orbitron font-bold mb-8 uppercase metallic-text leading-none">AI REVOLUTION<br/>FUELING GROWTH.</h2>
           <div className="tech-panel p-8 rounded-lg border-l-4 border-l-white">
             <p className="text-gray-400 font-mono text-sm leading-relaxed mb-6">
-              SSD isn't just a token. It's high-performance culture on the <span className="text-white font-bold">Solana</span> network. 
-              Engineered for speed, durability, and maximum capacity.
+              The AI revolution is unstoppable, and it runs on hardware. As the demand for processing power and storage skyrockets, $SSD becomes the critical asset of the new economy.
+              <br/><br/>
+              <span className="text-white">Stock price reflects the hardware supercycle.</span> Vertical trajectory is the only logical outcome.
             </p>
             <div className="grid grid-cols-2 gap-4">
-              {['ZERO_LATENCY', 'NO_TAXES', 'LP_BURNT', 'COMMUNITY_OS'].map((tag) => (
+              {['AI_SUPER_CYCLE', 'HARDWARE_PROXY', 'UP_ONLY_TECH', 'COMMUNITY_OS'].map((tag) => (
                 <div key={tag} className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 bg-gray-500" />
                   <span className="text-[10px] font-orbitron text-gray-300 tracking-wider">{tag}</span>
