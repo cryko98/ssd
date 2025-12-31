@@ -730,8 +730,16 @@ const App: React.FC = () => {
           <Roadmap />
           <Connect />
           
-          <footer className="py-8 text-center border-t border-white/5">
+          <footer className="py-8 text-center border-t border-white/5 flex flex-col items-center gap-4">
             <p className="font-mono text-[9px] text-gray-600">SYSTEM ARCHITECTURE © 2025 SSD PROTOCOL</p>
+            <div className="flex items-center gap-2">
+               <span className="font-mono text-[9px] text-gray-600">WEB DEV:</span>
+               <a href="https://t.me/Maximus00115" target="_blank" className="text-gray-500 hover:text-cyan-400 transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.505 1.205-.817 1.24-.693.06-1.223-.455-1.898-.899-1.056-.694-1.652-1.125-2.678-1.799-1.193-.787-.42-1.218.261-1.907.178-.18 3.253-2.98 3.313-3.23.007-.032.014-.15-.056-.212s-.17-.035-.248-.021c-.106.022-1.792 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.244-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.533 6.998-3.014 3.332-1.39 4.025-1.629 4.476-1.629.099 0 .322.023.466.14.12.096.153.228.169.324-.002.068.016.292 0 .292z"/>
+                  </svg>
+               </a>
+            </div>
           </footer>
         </motion.div>
       )}
